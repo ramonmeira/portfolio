@@ -28,6 +28,8 @@
 
 ## Versioning ([SemVer](http://semver.org/))
 
+-   0.6.0
+    -   Update: testimonial section
 -   0.5.0
     -   Update: Services section
 -   0.4.0
@@ -46,11 +48,11 @@
 
 ## Backlog
 
--   Update: testimonial section
 -   Update: portfolio section
 -   Update: Get started section
 -   Update: Footer
 -   Feature: intro animation
+-   Fix: add real testimonials
 
 ## Acknowledgments
 

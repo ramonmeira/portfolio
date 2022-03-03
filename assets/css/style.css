@@ -10999,7 +10999,7 @@ textarea.form-control-lg {
 
 .testimonials {
   position: relative;
-  padding: 0;
+  padding-top: 6rem;
   background: linear-gradient(to right, rgba(4, 11, 116, 0.95), rgba(48, 132, 237, 0.95));
 }
 .testimonials__card {
@@ -11039,7 +11039,6 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 .testimonials__name p {
-  padding-bottom: 2rem;
   text-transform: capitalize;
 }
 
