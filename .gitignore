@@ -2,3 +2,11 @@
 node_modules/
 .idea/
 dist/
+
+build
+npm-debug.log
+.nyc
+.env
+.DS_Store
+
+*.bak
