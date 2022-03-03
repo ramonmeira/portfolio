@@ -6,15 +6,23 @@
   "scripts": {
     "compile:sass": "sass --watch scss:assets/css"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramonmeira/portfolio.git"
+  },
   "keywords": [
     "Bootstrap",
-    "bootstrap-v5",
+    "Bootstrap-v5",
     "sass",
     "learn-bootstrap",
     "learn-sass"
   ],
-  "author": "Patrick Muriungi",
+  "author": "Ramon Lima e Meira",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ramonmeira/portfolio-wth-sass/issues"
+  },
+  "homepage": "https://github.com/ramonmeira/portfolio#readme",
   "devDependencies": {
     "sass": "^1.32.12"
   },

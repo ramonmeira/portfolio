@@ -4,17 +4,16 @@
 .menu {
     @include gradient;
 
-
     li {
       padding: 0 0.7rem;
 
       a {
-        color: $white;
-        padding: 0 0.7rem;
+        color: $white !important;
         text-transform: capitalize;
         font-weight: 600;      
 
       }
+      
       &:hover {
         color: $white;
       }

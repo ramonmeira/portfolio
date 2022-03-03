@@ -10872,8 +10872,7 @@ textarea.form-control-lg {
   padding: 0 0.7rem;
 }
 .menu li a {
-  color: #fff;
-  padding: 0 0.7rem;
+  color: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
 }

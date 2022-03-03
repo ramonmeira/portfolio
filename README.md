@@ -28,6 +28,9 @@
 
 ## Versioning ([SemVer](http://semver.org/))
 
+-   0.2.0
+    -   Update: navbar
+    -   Remove: FAQ section
 -   0.1.0
     -   Update: initial personalization
         -   CSS
@@ -37,12 +40,10 @@
 
 ## Backlog
 
--   Update: navbar
 -   Update: Intro section
 -   Update: Companies section
 -   Update: Services section
 -   Update: testimonial section
--   Remove: FAQ section
 -   Update: portfolio section
 -   Update: Get started section
 -   Update: Footer
