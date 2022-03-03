@@ -28,6 +28,8 @@
 
 ## Versioning ([SemVer](http://semver.org/))
 
+-   0.5.0
+    -   Update: Services section
 -   0.4.0
     -   Update: Companies section
 -   0.3.0
@@ -44,7 +46,6 @@
 
 ## Backlog
 
--   Update: Services section
 -   Update: testimonial section
 -   Update: portfolio section
 -   Update: Get started section
