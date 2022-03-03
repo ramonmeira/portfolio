@@ -3,29 +3,20 @@
 
 .intro-section {
     @include gradient;
-    padding: 10rem 0 0 0;
+  padding: 6rem 0 0 0;
     width: 100%;
     height: 100%;
 }
 
 .intros {
-
-
     .video-box {
         position: relative;
-
-
         a {
-            // @include absoluteCenter;
-
+      @include absoluteCenter;
             span {
-
-
                 i {
-
                     font-size: 6rem;
                     color: $secondary;
-
                 }
             }
         }
@@ -48,4 +39,15 @@
     &--border-2 {
         animation-delay: 1.5s;
     }
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  margin-left: -1.5rem;
+}
+
+.hidden {
+  opacity: 0;
 }

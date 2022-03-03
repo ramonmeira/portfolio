@@ -28,6 +28,8 @@
 
 ## Versioning ([SemVer](http://semver.org/))
 
+-   0.3.0
+    -   Update: Intro section
 -   0.2.0
     -   Update: navbar
     -   Remove: FAQ section
@@ -40,7 +42,6 @@
 
 ## Backlog
 
--   Update: Intro section
 -   Update: Companies section
 -   Update: Services section
 -   Update: testimonial section

@@ -1,33 +1,48 @@
 @use '../custom' as *;
+@use '../components/mixins.scss' as *;
 
 .display-2 {
     margin-bottom: 1rem;
-    text-transform: capitalize;
+    //text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
 
     &--intro {
         display: inline-block;
         font-weight: 700;
+        font-size: 3rem;
         font-family: 'Poppins', sans-serif;
+
+        &--name {
+            display: block;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
     }
 
     &--description {
         font-size: 1rem;
-        display: block;
+        display: inline-block;
         margin-top: 1.2rem;
         text-transform: none;
+        text-align: justify;
+
+        a {
+            color: $white;
+            text-decoration: none;
+            font-weight: 600;
+        }
 
         @include media-breakpoint-up(lg) {
             font-size: 1.4rem;
             display: inline-block;
-
         }
     }
 }
 
-// HEADING LINE 
+// HEADING LINE
 .heading-line::before {
-    content: "";
+    content: '';
     width: 10rem;
     height: 0.1rem;
     display: block;
@@ -35,7 +50,7 @@
     background-color: $primary;
 }
 .heading-line::after {
-    content: "";
+    content: '';
     width: 2rem;
     padding-top: 0.5rem;
     height: 0.2rem;
@@ -45,7 +60,7 @@
     background-color: $primary;
 }
 
-// DISPLAY 3 
+// DISPLAY 3
 .display-3 {
     font-family: 'Poppins', sans-serif;
 
@@ -63,12 +78,10 @@
         @include media-breakpoint-up(lg) {
             font-size: 1.8rem;
         }
-
-
     }
 }
 
-// BORDER RIGHT 
+// BORDER RIGHT
 .border-right {
     border-right: 0;
 
@@ -78,8 +91,7 @@
     }
 }
 
-
-// GRADIENT BG 
-.gradient  {
-    background: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95));
+// GRADIENT BG
+.gradient {
+    @include gradient;
 }

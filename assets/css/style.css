@@ -10790,19 +10790,31 @@ textarea.form-control-lg {
 
 .display-2 {
   margin-bottom: 1rem;
-  text-transform: capitalize;
   font-family: "Poppins", sans-serif;
+  text-align: center;
 }
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
+}
+.display-2--intro--name {
+  display: block;
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 .display-2--description {
   font-size: 1rem;
-  display: block;
+  display: inline-block;
   margin-top: 1.2rem;
   text-transform: none;
+  text-align: justify;
+}
+.display-2--description a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
 }
 @media (min-width: 992px) {
   .display-2--description {
@@ -10882,13 +10894,19 @@ textarea.form-control-lg {
 
 .intro-section {
   background: linear-gradient(to right, rgba(4, 11, 116, 0.95), rgba(48, 132, 237, 0.95));
-  padding: 10rem 0 0 0;
+  padding: 6rem 0 0 0;
   width: 100%;
   height: 100%;
 }
 
 .intros .video-box {
   position: relative;
+}
+.intros .video-box a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .intros .video-box a span i {
   font-size: 6rem;
@@ -10910,6 +10928,17 @@ textarea.form-control-lg {
 }
 .border-animation--border-2 {
   animation-delay: 1.5s;
+}
+
+.console-underscore {
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  margin-left: -1.5rem;
+}
+
+.hidden {
+  opacity: 0;
 }
 
 .campanies {
