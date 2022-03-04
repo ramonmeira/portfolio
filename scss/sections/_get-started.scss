@@ -1,9 +1,8 @@
 @use '../custom' as *;
 @use '../components/mixins' as *;
 
-
 .get-started {
-    padding: 4rem 0;
+  padding: 6rem 0;
     background-color: $gray-200;
 }
 
@@ -19,9 +18,9 @@
         padding-left: 0.5rem;
         margin-bottom: 0.7rem;
 
-        li::before {
-            font-family: "Font Awesome 5 Free";
-            content: "\f00c";
+    li:before {
+      font-family: 'Font Awesome 5 Free';
+      content: '\f00c';
             font-weight: 600;
             margin-right: 0.5rem;
             font-size: 1.2rem;

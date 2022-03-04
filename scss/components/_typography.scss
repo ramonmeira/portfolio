@@ -79,6 +79,22 @@
             font-size: 2.5rem;
         }
     }
+
+    &--subtitle {
+        font-size: calc(0.7rem + 1vw);
+        text-transform: capitalize;
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        // display: inline-block;
+        background-image: linear-gradient(to right, $primary, $secondary);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        @include media-breakpoint-up(lg) {
+            font-size: 1rem;
+        }
+    }
 }
 
 // BORDER RIGHT
@@ -94,4 +110,12 @@
 // GRADIENT BG
 .gradient {
     @include gradient;
+}
+
+.wrapper {
+    display: table;
+}
+.centered {
+    display: table-cell;
+    vertical-align: middle;
 }
