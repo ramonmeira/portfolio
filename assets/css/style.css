@@ -11066,6 +11066,10 @@ textarea.form-control-lg {
   text-transform: capitalize;
 }
 
+.faq {
+  padding-top: 6rem;
+}
+
 .portfolio {
   padding: 4rem 0;
 }

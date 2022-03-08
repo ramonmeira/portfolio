@@ -21,13 +21,10 @@
        }
     }
 
-
     &__info {
         padding: 0.4rem;
         font-weight: 600;
         
-
-
         &--title {
             color: $white;
             text-decoration: none;
@@ -36,7 +33,6 @@
             @include media-breakpoint-up(sm) {
                 font-size: 1.4rem;
                }
-
         }
 
         &--subtitle {
@@ -47,15 +43,13 @@
             @include media-breakpoint-up(sm) {
                 font-size: 1rem;
                }
-            
         }
     }
 }
 
 // STYLE THE SOCIAL MEDIA CONTENT 
+
 .footer-sm {
-
-
     a {
         color: $white;
 
@@ -104,7 +98,6 @@
         color: $gray-600;
         font-weight: 400;
         
-
         a {
             color: $gray-300;
             text-decoration: none;
@@ -112,12 +105,10 @@
             &:hover {
                 color: $primary;
                 text-decoration: underline;
-             
             }
         }
     }
 }
-
 
 // STYLE THE BACK TO TOP BUTTON 
 .back-to-top {

@@ -28,6 +28,9 @@
 
 ## Versioning ([SemVer](http://semver.org/))
 
+-   0.9.0
+    -   Update: Footer
+    -   Fix: link button in services section
 -   0.8.0
     -   Update: Get started section
 -   0.7.0
@@ -40,7 +43,7 @@
     -   Update: Companies section
 -   0.3.0
     -   Update: Intro section
-	-   Feature: intro animation
+    -   Feature: intro animation
 -   0.2.0
     -   Update: navbar
     -   Remove: FAQ section
@@ -53,7 +56,6 @@
 
 ## Backlog
 
--   Update: Footer
 -   Fix: add real testimonials
 -   Update: add real projects to portfolio
 -   Feature: filter of products on portfolio
