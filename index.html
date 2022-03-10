@@ -619,24 +619,40 @@
                 </div>
                 <!-- FILTER BUTTONS  -->
                 <div class="row mt-1 mb-4 g-3 text-center">
-                    <div class="col-md-12">
-                        <button class="btn btn-outline-primary" type="button">
+                    <div class="col-md-12" id="portfolio-buttons-container">
+                        <button
+                            class="btn btn-outline-primary active"
+                            type="button"
+                            onclick="filter(this, 'all')"
+                        >
                             Todos
                         </button>
-                        <button class="btn btn-outline-primary" type="button">
-                            Websites
+                        <button
+                            class="btn btn-outline-primary"
+                            type="button"
+                            onclick="filter(this, 'Website')"
+                        >
+                            Website
                         </button>
-                        <button class="btn btn-outline-primary" type="button">
-                            Sistemas Web
+                        <button
+                            class="btn btn-outline-primary"
+                            type="button"
+                            onclick="filter(this, 'Sistema Web')"
+                        >
+                            Sistema Web
                         </button>
-                        <button class="btn btn-outline-primary" type="button">
-                            Apps
+                        <button
+                            class="btn btn-outline-primary"
+                            type="button"
+                            onclick="filter(this, 'App')"
+                        >
+                            App
                         </button>
                     </div>
                 </div>
 
                 <!-- START THE PORTFOLIO ITEMS  -->
-                <div class="row">
+                <div class="row" id="portfolioRow">
                     <div class="col-lg-4 col-md-6">
                         <div class="portfolio-box shadow">
                             <img
@@ -910,12 +926,17 @@
                             <a href="https://github.com/ramonmeira"
                                 ><i class="fab fa-github"></i
                             ></a>
+                            <a href="https://gitlab.com/Ramonmeira"
+                                ><i class="fab fa-gitlab"></i
+                            ></a>
                             <a href="https://codepen.io/Ramonmeira"
                                 ><i class="fab fa-codepen"></i
                             ></a>
-                            <a href="https://www.hackerrank.com/ramonlimaemeira"
-                                ><i class="fab fa-hackerrank"></i
-                            ></a>
+                            <a
+                                href="https://www.hackerrank.com/ramonlimaemeira"
+                            >
+                                <i class="fab fa-hackerrank"></i>
+                            </a>
                         </div>
                     </div>
                 </div>

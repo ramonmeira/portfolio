@@ -15,7 +15,7 @@
     height: 18.5rem;
     overflow: hidden;
     margin-bottom: 1.2rem;
-    border-top: 0.5rem  solid lighten($primary, 20%);
+    border-top: 0.5rem solid lighten($primary, 20%);
 
     img {
         width: 100%;
@@ -33,18 +33,36 @@
         visibility: hidden;
 
         .caption {
-        text-align: center;
-        color: $white;
-        @include absoluteCenter;
+            text-align: center;
+            color: $white;
+            @include absoluteCenter;
 
             h4 {
                 text-transform: uppercase;
                 display: block;
             }
+
+            .portfolio-links {
+                display: flex;
+                justify-content: space-evenly;
+
+                a {
+                    text-decoration: none;
+                }
+
+                p {
+                    color: $white;
+                }
+
+                .portfolio-icon {
+                    padding: 0.5rem 1.5rem;
+                    color: $white;
+                    font-size: 2rem;
+                }
+            }
         }
     }
     &:hover {
-
         img {
             transform: scale(1.5);
             @include transitionProperty;

@@ -11111,6 +11111,21 @@ textarea.form-control-lg {
   text-transform: uppercase;
   display: block;
 }
+.portfolio-box .portfolio-info .caption .portfolio-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+.portfolio-box .portfolio-info .caption .portfolio-links a {
+  text-decoration: none;
+}
+.portfolio-box .portfolio-info .caption .portfolio-links p {
+  color: #fff;
+}
+.portfolio-box .portfolio-info .caption .portfolio-links .portfolio-icon {
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  font-size: 2rem;
+}
 .portfolio-box:hover img {
   transform: scale(1.5);
   transition-duration: 1s;

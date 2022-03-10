@@ -28,6 +28,10 @@
 
 ## Versioning ([SemVer](http://semver.org/))
 
+-   0.10.0
+    -   Update: add real projects to portfolio
+    -   Feature: filter of products on portfolio
+    -   Feature: link to repo and page on portifolio
 -   0.9.0
     -   Update: Footer
     -   Fix: link button in services section
@@ -57,8 +61,8 @@
 ## Backlog
 
 -   Fix: add real testimonials
--   Update: add real projects to portfolio
--   Feature: filter of products on portfolio
+-   Bug: send message button
+-   Refactor code
 
 ## Acknowledgments
 
